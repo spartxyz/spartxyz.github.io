@@ -12,3 +12,13 @@ a.primary-button:hover {
   color: #F97353;
   background-color: white;
 }
+
+@media (max-width: 700px) {
+  .feature-text {
+    display: block;
+    width: 100% !important;
+  }
+  .feature-graphic {
+    width: 100% !important;
+  }
+}
