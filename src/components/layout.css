@@ -384,7 +384,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 figure {
   margin-left: 0;
@@ -588,6 +588,23 @@ th:last-child,
 td:last-child {
   padding-right: 0;
 }
+
+.primary-button {
+  padding: '6px 16px';
+  border-radius: '4px';
+  font-weight: 500;
+  text-decoration: 'none';
+  background-color: '#F97353';
+  border: '2px solid #F97353';
+  color: 'white';
+}
+
+.primary-button:hover {
+  color: '#F97353';
+  background-color: 'white';
+}
+
+
 tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);

@@ -5,24 +5,23 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import FeatureBlock from "../components/feature-block"
+import IntroBlock from "../components/intro-block"
+import CallToAction from "../components/call-to-action"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <div className="page-intro">
-      <p className="page-header">Freely collaborate with other artists</p>
-      <p className="page-description">
-        Interact with other artists and viewers in more interesting ways than other platforms have to offer
-      </p>
-    </div>
+    <IntroBlock
+      introTitle="Freely collaborate with other artists"
+      introDescription="Interact with other artists and viewers in more interesting ways than other platforms have to offer"
+    />
+
+    <CallToAction
+      text="Try out the app!"
+    />
 
     <div className="collab-slider">slider</div>
-
-    <div className="call-to-action">
-      <p className="call-to-action-text">Go Try Out The App</p>
-      <button/>
-    </div>
 
     <div className="features-block">
       <FeatureBlock
@@ -53,10 +52,9 @@ const IndexPage = () => (
       />
     </div>
 
-    <div className="call-to-action">
-      <p className="call-to-action-text">Go Try Out The App</p>
-      <button/>
-    </div>
+    <CallToAction
+      text="Try out the app!"
+    />
 
     <div className="advanced-spart-slider">Advanced slider</div>
 
