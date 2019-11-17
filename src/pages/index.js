@@ -23,13 +23,17 @@ const IndexPage = () => (
 
     <div className="collab-slider">slider</div>
 
-    <div className="features-block">
+    <div className="features-block" style={{
+        marginTop: '40px',
+        marginBottom: '40px'
+      }}>
       <FeatureBlock
         featureTitle="Collaborate"
         featureDescription="Pair your artwork with other artists for a heightened experience.
         Complimentary visuals, music, and writing can be paired together
         in all sorts of combinations. Watch people create visuals, create
         music, or write stories for the artwork you create."
+        imageRight={true}
       />
       <FeatureBlock
         featureTitle="Interaction"
@@ -43,6 +47,7 @@ const IndexPage = () => (
         featureTitle="Interpretation"
         featureDescription="Any artist can collaborate with your artwork as many times as they
         want. That way, you can see, read, or hear how others interpret your artwork."
+        imageRight={true}
       />
       <FeatureBlock
         featureTitle="Money"

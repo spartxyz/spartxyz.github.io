@@ -9,9 +9,7 @@ const CallToAction = ({ text }) => (
       margin: 'auto',
       textAlign: 'center',
       paddingBottom: '36px',
-      paddingTop: '36px',
-      borderTop: '2px solid #F97353',
-      borderBottom: '2px solid #F97353'
+      paddingTop: '36px'
     }}>
     <p className="call-to-action-text" style={{
         fontSize: '24px',
