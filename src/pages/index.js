@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import FeatureBlock from "../components/feature-block"
 import IntroBlock from "../components/intro-block"
@@ -60,17 +58,6 @@ const IndexPage = () => (
     <CallToAction
       text="Try out the app!"
     />
-
-    <div className="advanced-spart-slider">Advanced slider</div>
-
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/pricing/">Pricing</Link>
-    <Link to="/tutorials/">Tutorials</Link>
-    <Link to="/about/">About</Link>
-    <Link to="/terms-conditions/">Terms and Conditions</Link>
-    <Link to="/privacy-policy/">Privacy Policy</Link>
   </Layout>
 )
 
