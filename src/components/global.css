@@ -1,5 +1,18 @@
+@import url('https://rsms.me/inter/inter.css');
+
+input {
+  font-family: 'Inter';
+}
+* {
+  font-family: 'Inter';
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 a.primary-button {
-  padding: 6px 16px;
+  padding: 8px 24px;
   border-radius: 4px;
   font-weight: 500;
   text-decoration: none;
@@ -11,6 +24,7 @@ a.primary-button {
 a.primary-button:hover {
   color: #F97353;
   background-color: white;
+  opacity: 1;
 }
 
 .footer .footer-column {
@@ -22,6 +36,20 @@ a.primary-button:hover {
   text-decoration: none;
   display: block;
 }
+
+.header-right .header-right-item {
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 21px;
+  line-height: 44px;
+  color: #1B1B1B;
+}
+
+.use-case {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
 
 @media (max-width: 700px) {
   .feature-text {

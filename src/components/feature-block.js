@@ -1,20 +1,26 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-const FeatureBlock = ({ featureTitle, featureDescription, imageRight }) => (
+const FeatureBlock = ({ featureTitle, featureDescription, imageRight, image }) => (
   <div className="feature-block" style={{
       padding: '20px',
       margin: '80px 0'
     }}>
-    <div className="feature-graphic" style={{
-        width: '50%',
-        display: 'inline-block',
-        float: imageRight ? 'right' : 'none'
-      }}>
-    </div>
+    {imageRight ? (
+      <span/>
+    ) : (
+      <div className="feature-graphic" style={{
+          width: '50%',
+          display: 'inline-block',
+          maxWidth: '800px'
+        }}>
+        { image }
+      </div>
+    )}
     <div className="feature-text" style={{
         width: '50%',
-        display: 'inline-block'
+        display: 'inline-block',
+        verticalAlign: 'top'
       }}>
       <p className="feature-title" style={{
           fontSize: '28px',
@@ -29,6 +35,17 @@ const FeatureBlock = ({ featureTitle, featureDescription, imageRight }) => (
         { featureDescription }
       </p>
     </div>
+    {imageRight ? (
+      <div className="feature-graphic" style={{
+          width: '50%',
+          display: 'inline-block',
+          maxWidth: '800px'
+        }}>
+        { image }
+      </div>
+    ) : (
+    <span/>
+    )}
   </div>
 )
 
