@@ -5,19 +5,19 @@ import PrimaryButton from './primary-button'
 
 const CallToAction = ({ text }) => (
   <div className="call-to-action" style={{
-      margin: 'auto',
+      margin: '40px auto',
       textAlign: 'center',
       paddingBottom: '48px',
       paddingTop: '48px',
       width: '100vw',
       position: 'absolute',
       left: 0,
-      backgroundColor: '#1b1b1b'
+      backgroundColor: 'white'
     }}>
     <p className="call-to-action-text" style={{
         fontSize: '24px',
         marginBottom: '24px',
-        color: 'white'
+        color: '#1b1b1b'
       }}>
       { text }
     </p>

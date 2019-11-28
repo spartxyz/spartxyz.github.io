@@ -25,12 +25,12 @@ const IndexPage = () => (
       <AppScreen/>
     </div>
 
-    <div className="user-cases" style={{ margin: '60px auto', textAlign: 'center' }}>
-      <div className="use-case">Write a story based on a visual</div>
+    <div className="user-cases" style={{ margin: '100px auto', textAlign: 'center' }}>
+      <div className="use-case">Write a story based on a painting</div>
       <div className="use-case">Paint the character for a story</div>
       <div className="use-case">Create the music to amplify a story</div>
       <div className="use-case">Write a poem to a piece of music</div>
-      <div className="use-case">Create the theme for the warrior in a visual</div>
+      <div className="use-case">Create the theme for the warrior in a drawing</div>
     </div>
 
     <CallToAction
@@ -41,7 +41,7 @@ const IndexPage = () => (
     <div className="collab-slider">slider</div>
 
     <div className="features-block" style={{
-        marginTop: '40px',
+        marginTop: '120px',
         marginBottom: '40px'
       }}>
       <FeatureBlock
@@ -84,6 +84,9 @@ const IndexPage = () => (
       text="Try out the app!"
     />
     <div style={{ height: '140px' }}/>
+
+  
+
   </Layout>
 )
 

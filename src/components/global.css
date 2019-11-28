@@ -7,6 +7,10 @@ input {
   font-family: 'Inter';
 }
 
+body {
+  background-color: #FAFAFA;
+}
+
 a:hover {
   opacity: 0.7;
 }
@@ -29,12 +33,14 @@ a.primary-button:hover {
 
 .footer .footer-column {
   display: inline-block;
-  width: 33%;
+  width: 25%;
+  vertical-align: top;
 }
 .footer a {
   color: white;
   text-decoration: none;
   display: block;
+  margin-bottom: 6px;
 }
 
 .header-right .header-right-item {
@@ -46,8 +52,8 @@ a.primary-button:hover {
 }
 
 .use-case {
-  font-size: 20px;
-  margin-bottom: 12px;
+  font-size: 22px;
+  margin-bottom: 24px;
 }
 
 

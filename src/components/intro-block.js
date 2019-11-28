@@ -3,19 +3,20 @@ import React from "react"
 
 const IntroBlock = ({ introTitle, introDescription }) => (
   <div className="intro-block" style={{
-      marginTop: '60px',
-      marginBottom: '120px'
+      marginTop: '80px',
+      marginBottom: '160px',
+      paddingRight: '20%'
     }}>
     <p className="intro-title" style={{
         fontSize: '60px',
-        lineHeight: '60px',
+        lineHeight: '80px',
         marginBottom: '36px'
       }}>
       { introTitle }
     </p>
     <p className="intro-description" style={{
-        fontSize: '36px',
-        lineHeight: '36px',
+        fontSize: '32px',
+        lineHeight: '42px',
         marginBottom: '24px'
       }}>
       { introDescription }
