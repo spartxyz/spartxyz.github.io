@@ -23,7 +23,6 @@ const Footer = () => (
       <div className="footer-column">
         <Link to="/pricing/" className="footer-link">Pricing</Link>
         <Link to="/tutorials/" className="footer-link">Tutorials</Link>
-        <Link to="/about/" className="footer-link">About</Link>
       </div>
       <div className="footer-column">
         <Link to="#" className="footer-link">Twitter</Link>

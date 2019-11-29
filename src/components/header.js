@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+
+import SpartLogo from "./spartlogo"
 
 const Header = () => (
   <header
@@ -17,23 +18,27 @@ const Header = () => (
         display: 'flex'
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, width: '90px' }}>
         <Link
           to="/"
           style={{
             color: `black`,
+            display: 'block',
             textDecoration: `none`,
+            maxHeight: '50px'
           }}
         >
-          Spart
+          <SpartLogo/>
         </Link>
       </h1>
       <div style={{ flexGrow: 1 }}/>
       <div className="header-right">
-        <a className="header-right-item" href="#">Pricing</a>
-        <a className="header-right-item" href="#">Tutorials</a>
-        <a className="header-right-item" href="#">About</a>
-        <a className="header-right-item" href="#">App</a>
+        <Link className="header-right-item" to="/pricing/">Pricing</Link>
+        <Link className="header-right-item" to="/tutorials/">Tutorials</Link>
+        <a className="header-right-item" href="https://www.spart.xyz/"
+          target="_blank" rel="noopener noreferrer">
+          App
+        </a>
       </div>
     </div>
   </header>

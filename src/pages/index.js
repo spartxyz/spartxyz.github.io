@@ -21,7 +21,7 @@ const IndexPage = () => (
       introDescription="Interact with other artists and viewers in more interesting ways than other platforms have to offer"
     />
 
-    <div style={{ maxWidth: '800px', margin: 'auto' }}>
+    <div style={{ maxWidth: '800px', margin: 'auto', boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)' }}>
       <AppScreen/>
     </div>
 
@@ -79,14 +79,6 @@ const IndexPage = () => (
         image={<Money/>}
       />
     </div>
-
-    <CallToAction
-      text="Try out the app!"
-    />
-    <div style={{ height: '140px' }}/>
-
-  
-
   </Layout>
 )
 
