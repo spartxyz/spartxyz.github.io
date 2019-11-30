@@ -6,7 +6,6 @@ const Footer = () => (
   <div className="footer-container" style={{
       backgroundColor: '#1B1B1B',
       width: '100vw',
-      marginTop: '40px',
       padding: '60px 0'
     }}>
     <div className="footer" style={{
@@ -23,6 +22,7 @@ const Footer = () => (
       <div className="footer-column">
         <Link to="/pricing/" className="footer-link">Pricing</Link>
         <Link to="/tutorials/" className="footer-link">Tutorials</Link>
+        <Link to="/contact/" className="footer-link">Contact</Link>
       </div>
       <div className="footer-column">
         <Link to="#" className="footer-link">Twitter</Link>

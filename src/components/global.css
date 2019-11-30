@@ -81,6 +81,12 @@ a.primary-button:hover {
   padding: 12px 16px;
 }
 
+.social-media {
+  display: inline-block;
+  margin: 0 6px;
+  color: #1B1B1B;
+}
+
 
 @media (max-width: 700px) {
   .feature-text {

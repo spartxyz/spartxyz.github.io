@@ -24,29 +24,31 @@ const PricingPage = () => (
       </div>
       <div className="pricing-block">
         <div className="pricing-title" style={{ backgroundColor: '#F97353' }}>Pro</div>
-        <div className="pricing-price">Coming Soon</div>
+        <div className="pricing-price">To Be Determined</div>
         <div className="pricing-features">
           <div className="pricing-feature">We've gotta keep this app running somehow and I will not sell your data or post ads.</div>
         </div>
       </div>
     </div>
 
-    <FAQ
-      introTitle="How expensive will Pro be?"
-      introDescription="I need to figure that out still. I've never wanted this application to grow into a big company
-      so I'm aiming to charge just enough to keep the up running while making a few dollars as well."
-    />
+    <div style={{ margin: '140px auto' }}>
+      <FAQ
+        introTitle="How expensive will Pro be?"
+        introDescription="I need to figure that out still. I've never wanted this application to grow into a big company
+        so I'm aiming to charge just enough to keep the up running while making a few dollars as well."
+      />
 
-    <FAQ
-      introTitle="What will Pro offer?"
-      introDescription="One thing I definitely want Pro to offer is the ability for Pro users to financially support artists.
-      Beyond that, I'm not sure yet."
-    />
+      <FAQ
+        introTitle="What will Pro offer?"
+        introDescription="One thing I definitely want Pro to offer is the ability for Pro users to financially support artists.
+        Beyond that, I'm not sure yet."
+      />
 
-    <FAQ
-      introTitle="Will Spart always be free?"
-      introDescription="Yes, yes, and yes."
-    />
+      <FAQ
+        introTitle="Will Spart always be free?"
+        introDescription="Yes, yes, and yes."
+      />
+    </div>
 
   </Layout>
 )
