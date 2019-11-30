@@ -5,8 +5,10 @@ import Logo from "./logo"
 const Footer = () => (
   <div className="footer-container" style={{
       backgroundColor: '#1B1B1B',
-      width: '100vw',
-      padding: '60px 0'
+      width: '100%',
+      padding: '60px 0',
+      bottom: '0px',
+      position: 'absolute'
     }}>
     <div className="footer" style={{
         color: 'white',

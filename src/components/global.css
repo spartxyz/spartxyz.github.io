@@ -25,7 +25,16 @@ a.primary-button {
   color: white;
 }
 
-a.primary-button:hover {
+#mc_embed_signup form input.email {
+  height: 36px;
+}
+#mc_embed_signup input.button {
+  height: 36px;
+  background-color: #F97353;
+  border: 2px solid #F97353;
+}
+a.primary-button:hover,
+#mc_embed_signup input.button:hover {
   color: #F97353;
   background-color: white;
   opacity: 1;

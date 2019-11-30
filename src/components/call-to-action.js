@@ -10,7 +10,7 @@ const CallToAction = ({ text }) => (
         textAlign: 'center',
         paddingBottom: '72px',
         paddingTop: '72px',
-        width: '100vw',
+        width: '100%',
         position: 'absolute',
         left: 0,
         backgroundColor: '#1b1b1b',

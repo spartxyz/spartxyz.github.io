@@ -16,6 +16,7 @@ import "./global.css"
 const Layout = ({ children }) => {
   return (
     <>
+    <div style={{ minHeight: '100vh', position: 'relative', paddingBottom: '220px' }}>
       <Header />
       <div
         style={{
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <Footer/>
+    </div>
     </>
   )
 }

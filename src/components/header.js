@@ -18,7 +18,7 @@ const Header = () => (
         display: 'flex'
       }}
     >
-      <h1 style={{ margin: 0, width: '90px' }}>
+      <h1 style={{ margin: 0, marginTop: '-12px' }}>
         <Link
           to="/"
           style={{
