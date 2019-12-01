@@ -27,13 +27,13 @@ const Footer = () => (
         <Link to="/contact/" className="footer-link">Contact</Link>
       </div>
       <div className="footer-column">
-        <Link to="#" className="footer-link">Twitter</Link>
-        <Link to="#" className="footer-link">Instagram</Link>
-        <Link to="#" className="footer-link">Discord</Link>
+        <a href="https://twitter.com/Spart_xyz" target="_blank" rel="noopener noreferrer" className="social-media">Twitter</a>
+        <a href="https://www.instagram.com/spart_xyz/" target="_blank" rel="noopener noreferrer" className="social-media">Instagram</a>
+        <a href="https://invite.gg/spart" target="_blank" rel="noopener noreferrer" className="social-media">Discord</a>
       </div>
       <div className="footer-column">
-        <Link to="/terms-conditions/" className="footer-link">Terms and Conditions</Link>
-        <Link to="/privacy-policy/" className="footer-link">Privacy Policy</Link>
+        <a href="https://www.termsfeed.com/terms-conditions/97c00a1dabd1b42b067919c18f66ef41" target="_blank" rel="noopener noreferrer" className="footer-link">Terms and Conditions</a>
+        <a href="https://www.termsfeed.com/privacy-policy/a73aca3759d6d3cd07465dfc7b54cdfe" target="_blank" rel="noopener noreferrer" className="footer-link">Privacy Policy</a>
       </div>
     </div>
   </div>

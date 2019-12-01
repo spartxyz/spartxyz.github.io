@@ -6,11 +6,11 @@ import FeatureBlock from "../components/feature-block"
 import IntroBlock from "../components/intro-block"
 import CallToAction from "../components/call-to-action"
 
-import AppScreen from "../components/appscreen"
-import Collab from "../components/collab"
-import Interaction from "../components/interaction"
-import Interpretation from "../components/interpretation"
-import Money from "../components/money"
+import AppScreen from "../components/images/appscreen"
+import Collab from "../components/images/collab"
+import Interaction from "../components/images/interaction"
+import Interpretation from "../components/images/interpretation"
+import Money from "../components/images/money"
 
 const IndexPage = () => (
   <Layout>
@@ -66,6 +66,10 @@ const IndexPage = () => (
         imageRight={false}
         image={<Money/>}
       />
+    <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px' }}>
+        Illustrations are free and available here:&nbsp;
+        <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://absurd.design/">Absurd Design</a>
+      </p>
     </div>
 
     <CallToAction
