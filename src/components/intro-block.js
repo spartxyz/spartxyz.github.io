@@ -10,7 +10,8 @@ const IntroBlock = ({ introTitle, introDescription }) => (
     <p className="intro-title" style={{
         fontSize: '60px',
         lineHeight: '80px',
-        marginBottom: '36px'
+        marginBottom: '36px',
+        fontWeight: '600'
       }}>
       { introTitle }
     </p>
