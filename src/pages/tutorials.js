@@ -11,20 +11,9 @@ const Tutorials = () => (
 
     <PageIntro
       introTitle="Help Center"
-      introDescription="Below you will find a few short tutorials on how to use some of the more common features of Spart. Below that there are
-      some frequently asked questions."
+      introDescription="Below there are some frequently asked questions.
+      Below that you will find a few short tutorials on how to use some of the more common features of Spart. "
     />
-
-    <div style={{ textAlign: 'center' }}>
-      <span className="video-title">Adding a story to Spart</span>
-      <iframe title="Tutorial1" width="600" height="315" src="https://www.youtube.com/embed/dxXRI3rPW-0" frameborder="0" allowfullscreen/>
-
-      <span className="video-title">Adding a story to an existing Visual</span>
-      <iframe title="Tutorial2" width="600" height="315" src="https://www.youtube.com/embed/r3rviw8XRR8" frameborder="0" allowfullscreen/>
-
-      <span className="video-title">Replacing a story with your own (Coolest feature!)</span>
-      <iframe title="Tutorial3" width="600" height="315" src="https://www.youtube.com/embed/wIU1u3hkN0U" frameborder="0" allowfullscreen/>
-    </div>
 
     <div style={{ margin: '140px auto' }}>
       <FAQ
@@ -56,6 +45,17 @@ const Tutorials = () => (
         introTitle="Can I request features?"
         introDescription="Yes, absolutely. All feedback is appreciated! Click the Contact tab at the top of the screen to see how you can contact us."
       />
+    </div>
+
+    <div style={{ textAlign: 'center' }}>
+      <span className="video-title">Adding a story to Spart</span>
+      <iframe title="Tutorial1" width="600" height="315" src="https://www.youtube.com/embed/dxXRI3rPW-0" frameborder="0" allowfullscreen/>
+
+      <span className="video-title">Adding a story to an existing Visual</span>
+      <iframe title="Tutorial2" width="600" height="315" src="https://www.youtube.com/embed/r3rviw8XRR8" frameborder="0" allowfullscreen/>
+
+      <span className="video-title">Replacing a story with your own (Coolest feature!)</span>
+      <iframe title="Tutorial3" width="600" height="315" src="https://www.youtube.com/embed/wIU1u3hkN0U" frameborder="0" allowfullscreen/>
     </div>
 
   </Layout>
