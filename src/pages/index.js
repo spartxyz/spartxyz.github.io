@@ -66,9 +66,9 @@ const IndexPage = () => (
         imageRight={false}
         image={<Money/>}
       />
-    <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px' }}>
+      <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px' }}>
         Illustrations are free and available here:&nbsp;
-        <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://absurd.design/">Absurd Design</a>
+        <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://absurd.design/" target="_blank" rel="noopener noreferrer">Absurd Design</a>
       </p>
     </div>
 

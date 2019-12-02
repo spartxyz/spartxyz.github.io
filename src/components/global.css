@@ -96,6 +96,15 @@ a.primary-button:hover,
   color: #1B1B1B;
 }
 
+.video-title {
+  margin-top: 40px;
+  font-size: 24px;
+}
+iframe {
+  display: block;
+  display: block;
+  margin: 12px auto 60px auto;
+}
 
 @media (max-width: 700px) {
   .feature-text {

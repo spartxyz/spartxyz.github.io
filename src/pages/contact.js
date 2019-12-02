@@ -18,7 +18,7 @@ const Contact = () => (
       You can follow any of our social medias listed below, sign up for e-mail updates, or send us an e-mail."
     />
 
-    <div style={{ margin: '60px auto' }}>
+  <div style={{ margin: '60px auto 20px auto' }}>
       <div style={{ textAlign: 'center', fontSize: '20px' }}>Sign Up For E-mail Updates</div>
       <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"/>
       <div id="mc_embed_signup">
@@ -47,6 +47,13 @@ const Contact = () => (
         contact@spart.xyz
       </a>
     </div>
+
+    <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px', marginTop: '40px' }}>
+      Spart is being developed by&nbsp;
+      <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://twitter.com/ProgrammingJoe" target="_blank" rel="noopener noreferrer">ProgrammingJoe</a>
+      &nbsp;and designed by&nbsp;
+      <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://twitter.com/spenceramarsh" target="_blank" rel="noopener noreferrer">Spencer</a>
+    </p>
 
   </Layout>
 )
