@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/spartxyz.github.io`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
