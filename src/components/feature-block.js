@@ -3,16 +3,15 @@ import React from "react"
 
 const FeatureBlock = ({ featureTitle, featureDescription, imageRight, image }) => (
   <div className="feature-block" style={{
-      padding: '20px',
-      margin: '100px 0'
+      padding: '20px'
     }}>
     {imageRight ? (
       <span/>
     ) : (
-      <div style={{ display: 'inline-block', width: '50%' }}>
+      <div className="feature-graphic-container"
+        style={{ width: '50%' }}>
         <div className="feature-graphic" style={{
             width: '80%',
-            display: 'inline-block',
             maxWidth: '800px'
           }}>
           { image }
@@ -39,11 +38,11 @@ const FeatureBlock = ({ featureTitle, featureDescription, imageRight, image }) =
       </p>
     </div>
     {imageRight ? (
-      <div style={{ display: 'inline-block', width: '50%' }}>
+      <div className="feature-graphic-container"
+        style={{ width: '50%' }}>
         <div style={{ width: '20%', display: 'inline-block' }}/>
         <div className="feature-graphic" style={{
             width: '80%',
-            display: 'inline-block',
             maxWidth: '800px'
           }}>
           { image }

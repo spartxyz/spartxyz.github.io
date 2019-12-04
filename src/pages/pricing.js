@@ -31,7 +31,7 @@ const PricingPage = () => (
       </div>
     </div>
 
-    <div style={{ margin: '140px auto' }}>
+    <div className="faq-block">
       <FAQ
         introTitle="How expensive will Pro be?"
         introDescription="I need to figure that out still. I've never wanted this application to grow into a big company

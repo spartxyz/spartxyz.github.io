@@ -13,6 +13,7 @@ const Footer = () => (
     <div className="footer" style={{
         color: 'white',
         maxWidth: '960px',
+        padding: '0 1rem',
         margin: 'auto',
         textAlign: 'center'
       }}>

@@ -4,7 +4,7 @@ import React from "react"
 const FAQ = ({ introTitle, introDescription }) => (
   <div className="intro-block" style={{
       margin: '40px auto 20px auto',
-      width: '800px',
+      maxWidth: '800px',
     }}>
     <p className="intro-title" style={{
         fontSize: '22px',

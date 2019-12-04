@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import FeatureBlock from "../components/feature-block"
-import IntroBlock from "../components/intro-block"
+import IntroBlock from "../components/main-intro-block"
 import CallToAction from "../components/call-to-action"
 
 import AppScreen from "../components/images/appscreen"
@@ -29,10 +29,7 @@ const IndexPage = () => (
       text="Does the screenshot above look interesting?"
     />
 
-    <div className="features-block" style={{
-        marginTop: '150px',
-        marginBottom: '150px'
-      }}>
+    <div className="features-block">
       <FeatureBlock
         featureTitle="Collaborate"
         featureDescription="Pair your artwork with other artists for a heightened experience.
@@ -66,7 +63,8 @@ const IndexPage = () => (
         imageRight={false}
         image={<Money/>}
       />
-      <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px' }}>
+      <p className="illustration-declaration"
+        style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px' }}>
         Illustrations are free and available here:&nbsp;
         <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://absurd.design/" target="_blank" rel="noopener noreferrer">Absurd Design</a>
       </p>
@@ -76,7 +74,7 @@ const IndexPage = () => (
       text="Does that sound like a platform you want to try out?"
     />
 
-  <div className="user-cases" style={{ margin: '150px auto 150px auto', textAlign: 'center' }}>
+  <div className="user-cases" style={{ textAlign: 'center' }}>
       <div className="use-case">Write a story based on a painting</div>
       <div className="use-case">Paint the character described in a story</div>
       <div className="use-case">Create music for a tale of adventure</div>

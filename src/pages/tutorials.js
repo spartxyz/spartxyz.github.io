@@ -15,7 +15,7 @@ const Tutorials = () => (
       Below that you will find a few short tutorials on how to use some of the more common features of Spart. "
     />
 
-    <div style={{ margin: '140px auto' }}>
+    <div className="faq-block">
       <FAQ
         introTitle="Who is Spart for?"
         introDescription="Anyone really. Any beginner, amateur, or professional visual artist, producer, or writer."

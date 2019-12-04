@@ -8,8 +8,7 @@ const CallToAction = ({ text }) => (
     <div className="call-to-action" style={{
         margin: '0 auto 0 auto',
         textAlign: 'center',
-        paddingBottom: '72px',
-        paddingTop: '72px',
+        padding: '72px 10px',
         width: '100%',
         position: 'absolute',
         left: 0,
