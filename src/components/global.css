@@ -69,6 +69,9 @@ a.primary-button:hover,
   background-color: white;
   opacity: 1;
 }
+#mc_embed_signup .form-button-container {
+  margin-left: 12px;
+}
 
 .footer .footer-column {
   display: inline-block;
@@ -82,12 +85,48 @@ a.primary-button:hover,
   margin-bottom: 6px;
 }
 
+.header-right-page {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 30;
+  background-color: white;
+}
+.header-right-page .header-right-item {
+  display: block;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  border-bottom: 1px solid #E3E3E3;
+  margin-left: 0px;
+  color: #1B1B1B;
+}
+.header-right-page .header-right-item:first-of-type {
+  display: block;
+}
+.header-right-page .header-right-item:last-of-type {
+  border-bottom: 1px solid #E3E3E3;
+  border-width: 0px 0px 1px 0;
+  padding: 0px;
+}
+
 .header-right .header-right-item {
   text-decoration: none;
   margin-left: 24px;
   font-size: 21px;
   line-height: 44px;
   color: #1B1B1B;
+}
+.header-right .header-right-item:first-of-type {
+  display: none;
+}
+.header-right .header-right-item:last-of-type {
+  border: 2px solid #F97353;
+  padding: 6px 12px;
+  border-radius: 4px;
 }
 
 .use-case {
@@ -188,6 +227,14 @@ iframe {
   .pricing-block {
     width: 100%;
     margin-bottom: 40px;
+  }
+
+  #mc_embed_signup .form-button-container {
+    margin-left: 0px;
+  }
+
+  .header-right {
+    display: none;
   }
 
   .features-block {
