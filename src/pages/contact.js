@@ -41,8 +41,9 @@ const Contact = () => (
       <a href="https://invite.gg/spart" target="_blank" rel="noopener noreferrer" className="social-media"><Discord/></a>
       <a href="https://www.instagram.com/spart_xyz/" target="_blank" rel="noopener noreferrer" className="social-media"><Instagram/></a>
       <a href="https://twitter.com/Spart_xyz" target="_blank" rel="noopener noreferrer" className="social-media"><Twitter/></a>
-      <span style={{ lineHeight: '34px', verticalAlign: 'top', margin: '0 12px' }}>&#9679;</span>
+      <span style={{ lineHeight: '34px', verticalAlign: 'top', margin: '0 12px' }} className="dot-thing">&#9679;</span>
       <a href="mailto:contact@spart.xyz"
+        className="contact-link"
         style={{ fontSize: '22px', verticalAlign: 'top', lineHeight: '30px', color: '#1b1b1b' }}>
         contact@spart.xyz
       </a>

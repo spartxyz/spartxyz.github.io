@@ -101,6 +101,10 @@ a.primary-button:hover {
   margin-bottom: 6px;
 }
 
+.logo-block {
+  margin: -12px 0 0 0;
+}
+
 .header-right-page {
   width: 100vw;
   height: 100vh;
@@ -129,11 +133,9 @@ a.primary-button:hover {
   padding: 0px;
 }
 .header-right-burger {
+  color: #1b1b1b;
   display: none;
   margin-right: 8px;
-  svg {
-    color: #1b1b1b;
-  }
 }
 
 iframe {
@@ -224,6 +226,12 @@ iframe {
 }
 
 @media (max-width: 700px) {
+  .contact-link {
+    display: block;
+  }
+  .dot-thing {
+    display: none;
+  }
   .main-intro-block {
     padding-right: 0%;
     margin-bottom: 100px;
@@ -250,6 +258,10 @@ iframe {
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 16px;
+  }
+
+  .logo-block {
+    margin: -18px 0 0 0;
   }
 
   .pricing-block {
@@ -290,6 +302,14 @@ iframe {
 
   .faq-block {
     margin: 80px auto;
+  }
+
+  .contact-form button {
+    margin-top: 6px;
+  }
+
+  .social-medias {
+    margin-top: 40px;
   }
 
   .user-cases {
