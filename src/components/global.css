@@ -55,23 +55,38 @@ a.primary-button {
   margin-bottom: 24px;
 }
 
-#mc_embed_signup form input.email {
-  height: 36px;
-}
-#mc_embed_signup input.button {
-  height: 36px;
-  background-color: #F97353;
-  border: 2px solid #F97353;
-}
-a.primary-button:hover,
-#mc_embed_signup input.button:hover {
+a.primary-button:hover {
   color: #F97353;
   background-color: white;
   opacity: 1;
 }
-#mc_embed_signup .form-button-container {
+
+.contact-form div {
+  margin: auto;
+  text-align: center;
+}
+.contact-form input {
+  height: 40px;
+  padding: 0 6px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid lightgrey;
+}
+.contact-form button {
+  padding: 5px 24px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #F97353;
+  border: 2px solid #F97353;
+  color: white;
   margin-left: 12px;
-  display: inline-block;
+}
+.contact-form button:hover {
+  cursor: pointer;
+  color: #F97353;
+  background-color: white;
+  opacity: 1;
 }
 
 .footer .footer-column {
