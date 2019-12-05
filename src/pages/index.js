@@ -33,18 +33,15 @@ const IndexPage = () => (
     <div className="features-block">
       <FeatureBlock
         featureTitle="Collaborate"
-        featureDescription="Pair your artwork with other artists for a heightened experience.
-        Complimentary visuals, music, and writing can be paired together
-        in all sorts of combinations. Watch people create visuals, create
-        music, or write stories for the artwork you create."
+        featureDescription="Complimentary visuals, music, and writing can be paired together to amplify the viewing experience.
+        Watch people create visuals, create music, or write stories for the artwork you create."
         imageRight={true}
         image={<Interaction/>}
       />
       <FeatureBlock
-        featureTitle="Interact"
-        featureDescription="Most existing platform allow viewers to like and comment, but
-        that's about it. Spart aims to create a place where
-        you can have more interesting interactions with other artists than likes and comments."
+        featureTitle="Experiment"
+        featureDescription="Spart aims to make it easy for you to try out new mediums of artwork
+        while still allowing you to showcase your strengths. Sometimes expressing yourself in other ways is refreshing."
         imageRight={false}
         image={<Collab/>}
       />

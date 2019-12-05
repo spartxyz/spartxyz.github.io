@@ -35,7 +35,7 @@ const PricingPage = () => (
       <FAQ
         introTitle="How expensive will Pro be?"
         introDescription="I need to figure that out still. I've never wanted this application to grow into a big company
-        so I'm aiming to charge just enough to keep the up running while making a few dollars as well."
+        so I'm aiming to charge just enough to keep the up running while also supporting me enough to continue improving and maintaining it."
       />
 
       <FAQ
@@ -46,7 +46,7 @@ const PricingPage = () => (
 
       <FAQ
         introTitle="Will Spart always be free?"
-        introDescription="Yes, yes, and yes."
+        introDescription="Yes, as long as there is a community willing to support it."
       />
     </div>
 
