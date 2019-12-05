@@ -49,13 +49,13 @@ const Tutorials = () => (
 
     <div style={{ textAlign: 'center' }}>
       <span className="video-title">Adding a story to Spart</span>
-      <iframe title="Tutorial1" width="600" height="315" src="https://www.youtube.com/embed/dxXRI3rPW-0" frameborder="0" allowfullscreen/>
+      <iframe title="Tutorial1" src="https://www.youtube.com/embed/dxXRI3rPW-0" frameborder="0" allowfullscreen/>
 
       <span className="video-title">Adding a story to an existing Visual</span>
-      <iframe title="Tutorial2" width="600" height="315" src="https://www.youtube.com/embed/r3rviw8XRR8" frameborder="0" allowfullscreen/>
+      <iframe title="Tutorial2" src="https://www.youtube.com/embed/r3rviw8XRR8" frameborder="0" allowfullscreen/>
 
       <span className="video-title">Replacing a story with your own (Coolest feature!)</span>
-      <iframe title="Tutorial3" width="600" height="315" src="https://www.youtube.com/embed/wIU1u3hkN0U" frameborder="0" allowfullscreen/>
+      <iframe title="Tutorial3" src="https://www.youtube.com/embed/wIU1u3hkN0U" frameborder="0" allowfullscreen/>
     </div>
 
   </Layout>

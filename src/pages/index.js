@@ -17,8 +17,9 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <IntroBlock
-      introTitle="Freely collaborate with other artists"
-      introDescription="Interact with other artists and viewers in more interesting ways than other platforms have to offer"
+      introTitle="Find your inner creativity"
+      introDescription="Experiment with various mediums of art while still being able to
+      showcase your strengths, all in one place, and with the support of other artists"
     />
 
   <div style={{ maxWidth: '800px', margin: 'auto', boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)', marginBottom: '-6px' }}>

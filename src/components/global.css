@@ -71,6 +71,7 @@ a.primary-button:hover,
 }
 #mc_embed_signup .form-button-container {
   margin-left: 12px;
+  display: inline-block;
 }
 
 .footer .footer-column {
@@ -111,6 +112,18 @@ a.primary-button:hover,
   border-bottom: 1px solid #E3E3E3;
   border-width: 0px 0px 1px 0;
   padding: 0px;
+}
+.header-right-burger {
+  display: none;
+  margin-right: 8px;
+  svg {
+    color: #1b1b1b;
+  }
+}
+
+iframe {
+  width: 600px;
+  height: 315px;
 }
 
 .header-right .header-right-item {
@@ -231,10 +244,19 @@ iframe {
 
   #mc_embed_signup .form-button-container {
     margin-left: 0px;
+    display: block;
   }
 
   .header-right {
     display: none;
+  }
+  .header-right-burger {
+    display: inline-block;
+  }
+
+  iframe {
+    width: 300px;
+    height: 160px;
   }
 
   .features-block {

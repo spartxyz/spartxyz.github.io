@@ -29,7 +29,7 @@ const Contact = () => (
             <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
               <input type="text" name="b_781944401c3bd73c2d0ecf0cc_ccc9fd92c7" tabindex="-1" value=""/>
             </div>
-            <div class="clear" class="form-button-container">
+            <div class="clear form-button-container">
               <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button primary-button"/>
             </div>
           </div>
