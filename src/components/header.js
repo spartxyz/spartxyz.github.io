@@ -7,7 +7,7 @@ import Menu from './images/hamburger'
 const Header = () => (
   <header
     style={{
-      background: `#FAFAFA`,
+      background: `#FFFFFF`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -15,7 +15,7 @@ const Header = () => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `1.15rem 1.0875rem`,
         display: 'flex'
       }}
     >

@@ -6,7 +6,7 @@ const PageIntro = ({ introTitle, introDescription }) => (
       maxWidth: '600px',
       textAlign: 'center'
     }}>
-    <p className="intro-title">
+    <p className="intro-title" style={{ fontWeight: '600' }}>
       { introTitle }
     </p>
     <p className="intro-description">

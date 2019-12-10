@@ -21,17 +21,17 @@ const FeatureBlock = ({ featureTitle, featureDescription, imageRight, image }) =
     )}
     <div className="feature-text" style={{
         width: '50%',
-        display: 'inline-block',
-        verticalAlign: 'top'
+        display: 'inline-block'
       }}>
       <p className="feature-title" style={{
           fontSize: '28px',
+          fontWeight: '600',
           marginBottom: '24px'
         }}>
         { featureTitle }
       </p>
       <p className="feature-description" style={{
-          fontSize: '22px',
+          fontSize: '20px',
           lineHeight: '32px'
         }}>
         { featureDescription }

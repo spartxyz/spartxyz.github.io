@@ -9,7 +9,8 @@ const FAQ = ({ introTitle, introDescription }) => (
     <p className="intro-title" style={{
         fontSize: '22px',
         lineHeight: '28px',
-        marginBottom: '12px'
+        marginBottom: '12px',
+        fontWeight: '600'
       }}>
       { introTitle }
     </p>

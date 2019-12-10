@@ -36,8 +36,8 @@ a.primary-button {
   margin-bottom: 36px;
 }
 .main-intro-description {
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 26px;
+  line-height: 36px;
   margin-bottom: 24px;
 }
 
@@ -146,7 +146,7 @@ iframe {
 .header-right .header-right-item {
   text-decoration: none;
   margin-left: 24px;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 44px;
   color: #1B1B1B;
 }
@@ -160,8 +160,8 @@ iframe {
 }
 
 .use-case {
-  font-size: 22px;
-  margin-bottom: 24px;
+  font-size: 20px;
+  margin-bottom: 12px;
 }
 
 .pricing-block {
@@ -201,6 +201,10 @@ iframe {
 }
 .feature-block {
   margin: 100px 0;
+}
+.feature-text,
+.feature-graphic-container {
+  vertical-align: middle;
 }
 .feature-graphic,
 .feature-graphic-container {

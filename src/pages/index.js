@@ -22,7 +22,7 @@ const IndexPage = () => (
       showcase your strengths, all in one place, and with the support of other artists"
     />
 
-  <div style={{ maxWidth: '800px', margin: 'auto', boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)', marginBottom: '-6px' }}>
+  <div style={{ margin: 'auto', boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)', marginBottom: '-10px' }}>
       <AppScreen/>
     </div>
 
@@ -72,7 +72,10 @@ const IndexPage = () => (
       text="Does that sound like a platform you want to try out?"
     />
 
-  <div className="user-cases" style={{ textAlign: 'center' }}>
+    <div className="user-cases" style={{ textAlign: 'center' }}>
+      <p style={{ fontSize: '28px', fontWeight: '600', marginBottom: '32px' }}>
+        A few examples of what you might do
+      </p>
       <div className="use-case">Write a story based on a painting</div>
       <div className="use-case">Paint the character described in a story</div>
       <div className="use-case">Create music for a tale of adventure</div>
@@ -80,8 +83,8 @@ const IndexPage = () => (
       <div className="use-case">Create the theme for the warrior in a drawing</div>
       <div className="use-case">Engage with other artists outside your area of expertise</div>
       <div className="use-case">Create artwork outside your area in a relaxed environment</div>
-      <div className="use-case">Financially support other artists on a consistent basis (soon)</div>
       <div className="use-case">Join a community of artists across mediums</div>
+      <div className="use-case">Financially support other artists on a consistent basis (soon)</div>
     </div>
 
   </Layout>
