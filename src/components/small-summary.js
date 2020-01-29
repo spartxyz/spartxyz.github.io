@@ -7,16 +7,16 @@ const FAQ = ({ introTitle, introDescription }) => (
       maxWidth: '800px',
     }}>
     <p className="intro-title" style={{
-        fontSize: '22px',
-        lineHeight: '28px',
+        fontSize: '26px',
+        lineHeight: '36px',
         marginBottom: '12px',
         fontWeight: '600'
       }}>
       { introTitle }
     </p>
     <p className="intro-description" style={{
-        fontSize: '18px',
-        lineHeight: '24px',
+        fontSize: '22px',
+        lineHeight: '28px',
       }}>
       { introDescription }
     </p>

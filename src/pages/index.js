@@ -11,6 +11,7 @@ import Collab from "../components/images/collab"
 import Interaction from "../components/images/interaction"
 import Interpretation from "../components/images/interpretation"
 import Money from "../components/images/money"
+import Inspire from "../components/images/inspire"
 
 const IndexPage = () => (
   <Layout>
@@ -27,38 +28,38 @@ const IndexPage = () => (
     </div>
 
     <CallToAction
-      text="Does the screenshot above look interesting?"
+      text="Start collaborating with other creators!"
     />
 
     <div className="features-block">
       <FeatureBlock
         featureTitle="Collaborate"
-        featureDescription="Complimentary visuals, music, and writing can be paired together to amplify the viewing experience.
-        Watch people create visuals, create music, or write stories for the artwork you create."
+        featureDescription="Collaborate with others or watch as people create visuals, music, stories, or voice lines for the artwork you create."
         imageRight={true}
         image={<Interaction/>}
       />
       <FeatureBlock
         featureTitle="Experiment"
-        featureDescription="Spart aims to make it easy for you to try out new mediums of artwork
-        while still allowing you to showcase your strengths. Sometimes expressing yourself in other ways is refreshing."
+        featureDescription="Experiment with other mediums of artwork as a refreshing step away from your comfort zone."
         imageRight={false}
         image={<Collab/>}
       />
       <FeatureBlock
-        featureTitle="Interpret"
-        featureDescription="Any artist can pair their work with yours as many times as they
-        want. That way, you can see, read, or hear how a range other artists interpret the
-        artwork you create."
+        featureTitle="Community"
+        featureDescription="Join a community that is inclusive, non discriminatory, and welcome to creators of all skill levels."
         imageRight={true}
         image={<Interpretation/>}
       />
       <FeatureBlock
-        featureTitle="Profit"
-        featureDescription="Counter to popular belief likes, comments, and even Spart collaborations
-        don't pay rent and we understand that. Spart will soon have a subscription
-        based payment model that will allow viewers to financially support artists on a consistent basis."
+        featureTitle="Inspire"
+        featureDescription="Inspire and be inspired by all mediums of artwork on a shared platform."
         imageRight={false}
+        image={<Inspire/>}
+      />
+      <FeatureBlock
+        featureTitle="Profit"
+        featureDescription="Soon, you will be able to financially support artists (and be supported!) on a consistent basis"
+        imageRight={true}
         image={<Money/>}
       />
       <p className="illustration-declaration"
@@ -69,7 +70,7 @@ const IndexPage = () => (
     </div>
 
     <CallToAction
-      text="Does that sound like a platform you want to try out?"
+      text="Time to Collaborate."
     />
 
     <div className="user-cases" style={{ textAlign: 'center' }}>

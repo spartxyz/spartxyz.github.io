@@ -12,7 +12,7 @@ const FeatureBlock = ({ featureTitle, featureDescription, imageRight, image }) =
         style={{ width: '50%' }}>
         <div className="feature-graphic" style={{
             width: '80%',
-            maxWidth: '800px'
+            maxWidth: '400px'
           }}>
           { image }
         </div>
@@ -24,15 +24,15 @@ const FeatureBlock = ({ featureTitle, featureDescription, imageRight, image }) =
         display: 'inline-block'
       }}>
       <p className="feature-title" style={{
-          fontSize: '28px',
+          fontSize: '36px',
           fontWeight: '600',
           marginBottom: '24px'
         }}>
         { featureTitle }
       </p>
       <p className="feature-description" style={{
-          fontSize: '20px',
-          lineHeight: '32px'
+          fontSize: '26px',
+          lineHeight: '42px'
         }}>
         { featureDescription }
       </p>
@@ -43,7 +43,7 @@ const FeatureBlock = ({ featureTitle, featureDescription, imageRight, image }) =
         <div style={{ width: '20%', display: 'inline-block' }}/>
         <div className="feature-graphic" style={{
             width: '80%',
-            maxWidth: '800px'
+            maxWidth: '400px'
           }}>
           { image }
         </div>

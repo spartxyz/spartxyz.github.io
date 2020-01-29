@@ -11,6 +11,13 @@ body {
   background-color: #FAFAFA;
 }
 
+.feature-description,
+.main-intro-description,
+.use-case,
+.intro-description {
+  color: #6A6A6A;
+}
+
 a:hover {
   opacity: 0.7;
 }
@@ -27,8 +34,8 @@ a.primary-button {
 
 .main-intro-block {
   padding-right: 20%;
-  margin-bottom: 160px;
-  margin-top: 80px;
+  margin-bottom: 180px;
+  margin-top: 100px;
 }
 .main-intro-title {
   font-size: 60px;
@@ -160,33 +167,39 @@ iframe {
 }
 
 .use-case {
-  font-size: 20px;
-  margin-bottom: 12px;
+  font-size: 24px;
+  line-height: 48px;
 }
 
 .pricing-block {
-  width: 46%;
+  width: 40%;
   display: inline-block;
   vertical-align: top;
-  margin: 0 2%;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 48px 38px 0 rgba(0, 0, 0, 0.03);
 }
+.pricing-block:first-of-type {
+  margin: 0 2% 0 8%;
+}
+.pricing-block:last-of-type {
+  margin: 0 8% 0 2%;
+}
 .pricing-title {
   color: white;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
-  padding: 16px;
+  padding: 16px 32px;
   border: 2px solid white;
   border-radius: 12px 12px 0 0;
 }
 .pricing-price {
+  font-size: 28px;
   font-weight: 600;
-  padding: 16px 16px 0 16px;
+  padding: 16px 32px 8px 32px;
 }
 .pricing-features {
-  padding: 12px 16px;
+  padding: 18px 36px;
 }
 
 .social-media {
@@ -271,6 +284,10 @@ iframe {
   .pricing-block {
     width: 100%;
     margin-bottom: 40px;
+  }
+  .pricing-block:first-of-type,
+  .pricing-block:last-of-type {
+    margin: 0 auto 20px auto;
   }
 
   #mc_embed_signup .form-button-container {

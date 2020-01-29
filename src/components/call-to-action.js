@@ -16,14 +16,16 @@ const CallToAction = ({ text }) => (
         boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)'
       }}>
       <p className="call-to-action-text" style={{
-          fontSize: '24px',
+          fontSize: '28px',
+          lineHeight: '48px',
           marginBottom: '24px',
-          color: 'white'
+          color: 'white',
+          fontWeight: '600'
         }}>
         { text }
       </p>
       <PrimaryButton
-        text="Go To The App"
+        text="Let's begin!"
         location="https://www.spart.xyz"
       />
     </div>

@@ -17,16 +17,16 @@ const PricingPage = () => (
     <div className="pricing-blocks" style={{ marginBottom: '60px' }}>
       <div className="pricing-block">
         <div className="pricing-title" style={{ backgroundColor: '#6A6A6A' }}>Free</div>
-        <div className="pricing-price">Free</div>
+        <div className="pricing-price">$0</div>
         <div className="pricing-features">
-          <div className="pricing-feature">Spart and all of it's existing features will always be free &#9829;.</div>
+          <div className="pricing-feature">Spart and all of it's existing features will always be free, forever &#9829;.</div>
         </div>
       </div>
       <div className="pricing-block">
         <div className="pricing-title" style={{ backgroundColor: '#F97353' }}>Pro</div>
-        <div className="pricing-price">To Be Determined</div>
+        <div className="pricing-price">TBD</div>
         <div className="pricing-features">
-          <div className="pricing-feature">We've gotta keep this app running somehow and I will not sell your data or post ads.</div>
+          <div className="pricing-feature">We want to offer your more and allow you to financially support other creators.</div>
         </div>
       </div>
     </div>
