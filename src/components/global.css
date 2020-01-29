@@ -98,6 +98,7 @@ a.primary-button:hover {
 
 .footer .footer-column {
   display: inline-block;
+  text-align: left;
   width: 25%;
   vertical-align: top;
 }
