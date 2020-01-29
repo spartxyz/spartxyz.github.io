@@ -46,7 +46,7 @@ const IndexPage = () => (
       />
       <FeatureBlock
         featureTitle="Community"
-        featureDescription="Join a community that is inclusive, non discriminatory, and welcome to creators of all skill levels."
+        featureDescription="Join a community that is inclusive, non discriminatory, and welcoming to creators of all skill levels."
         imageRight={true}
         image={<Interpretation/>}
       />
