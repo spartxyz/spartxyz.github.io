@@ -12,14 +12,14 @@ const CallToAction = ({ text }) => (
         width: '100%',
         position: 'absolute',
         left: 0,
-        backgroundColor: '#1b1b1b',
-        boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)'
+        backgroundColor: '#E3E3E3',
+        boxShadow: '0 48px 60px 0 rgba(0, 0, 0, 0.03), 0 -48px 60px 0 rgba(0, 0, 0, 0.03)'
       }}>
       <p className="call-to-action-text" style={{
           fontSize: '28px',
           lineHeight: '48px',
           marginBottom: '24px',
-          color: 'white',
+          color: '#1B1B1B',
           fontWeight: '600'
         }}>
         { text }
