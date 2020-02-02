@@ -18,7 +18,7 @@ const Contact = () => (
       title="Contact"
       canonical="contact/"
       description="Contact the developer of Spart, sign up for email updates, or follow our social media."
-      keywords="creativity, collaboration, visual, artists, music, makers, writers, voice, actors"
+      keywords="contact, e-mail, updates, social, medias, instagram, twitter, discord"
     />
 
     <PageIntro

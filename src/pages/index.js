@@ -19,7 +19,7 @@ const IndexPage = () => (
       title="Spart"
       canonical=""
       description="A place where artists can collaborate on combinations of visual, audio, and written artwork."
-      keywords="contact, e-mail, updates, social, medias, instagram, twitter, discord"
+      keywords="creativity, collaboration, visual, artists, music, makers, writers, voice, actors"
     />
 
     <IntroBlock
