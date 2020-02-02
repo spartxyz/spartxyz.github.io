@@ -39,7 +39,7 @@ const Header = () => (
         <Link className="header-right-item" title="pricing" to="/pricing/">Pricing</Link>
         <Link className="header-right-item" title="tutorials" to="/tutorials/">Tutorials</Link>
         <Link className="header-right-item" title="contact" to="/contact/">Contact</Link>
-        <a className="header-right-item" href="https://www.spart.xyz/"
+        <a className="header-right-item" title="spart-app" href="https://www.spart.xyz/"
           target="_blank" rel="noopener noreferrer">
           App
         </a>

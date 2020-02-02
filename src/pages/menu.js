@@ -6,7 +6,11 @@ import SEO from "../components/seo"
 
 const Menu = () => (
   <Layout>
-    <SEO title="Menu" />
+    <SEO
+      title="Menu"
+      canonical="menu/"
+      description="Navigation menu"
+    />
     <div className="header-right-page">
       <Link className="header-right-item" to="/">Home</Link>
       <Link className="header-right-item" to="/pricing/">Pricing</Link>

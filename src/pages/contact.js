@@ -14,7 +14,12 @@ const SimpleForm = () => <MailchimpSubscribe url={url}/>
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO
+      title="Contact"
+      canonical="contact/"
+      description="Contact the developer of Spart, sign up for email updates, or follow our social media."
+      keywords="creativity, collaboration, visual, artists, music, makers, writers, voice, actors"
+    />
 
     <PageIntro
       introTitle="Contact"

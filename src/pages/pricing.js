@@ -7,7 +7,12 @@ import FAQ from "../components/small-summary"
 
 const PricingPage = () => (
   <Layout>
-    <SEO title="Pricing" />
+    <SEO
+      title="Pricing"
+      canonical="pricing/"
+      description="Pricing tiers and information for the artwork collaboration platform, Spart."
+      keywords="pricing, spart, artists, support, features, pro, free"
+    />
 
     <PageIntro
       introTitle="Pricing"

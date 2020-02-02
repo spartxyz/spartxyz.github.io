@@ -7,7 +7,12 @@ import FAQ from "../components/small-summary"
 
 const Tutorials = () => (
   <Layout>
-    <SEO title="Help Center" />
+    <SEO
+      title="Help Center"
+      canonical="tutorials/"
+      description="Tutorials and frequently asked questions on the artwork collaboration platform, Spart"
+      keywords="help, center, frequently, questions, tutorials, spart, artist, producer, writer"
+    />
 
     <PageIntro
       introTitle="Help Center"

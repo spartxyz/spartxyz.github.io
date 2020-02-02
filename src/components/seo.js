@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, canonical, keywords }) {
   return (
     <Helmet
       htmlAttributes={{
@@ -21,12 +21,25 @@ function SEO({ description, lang, meta, title }) {
     >
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta name="author" content="Joe Czepil"/>
-      <meta property="og:url" content="https://spart.site/" />
-      <meta property="og:type" content="article" />
-      <meta name="description" content="A place where artists can collaborate on combinations of visual, audio, and written artwork." />
-      <meta name="keywords" content="artists, spart, visual artist, music maker, writer, voice actor, collaboration, composer, producer"/>
+      <meta name="description" content={description} />
+      <meta name="keywords" content={keywords}/>
       <meta name="twitter:creator" content="@Spart_xyz" />
-      <meta name="instagram:creator" content="@spart_xyz" />
+
+      <link rel="canonical" href={`https://spart.site/${canonical}`} />
+
+      <meta property="og:title" content="Spart - Fuel your creativity, with collaboration" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://spart.site/" />
+      <meta property="og:image" content="images/website.png" />
+      <meta property="og:description" content="Spart is a platform where visual artists, music makers, writers, and voice actors can freely collaborate." />
+
+      <meta name="twitter:title" content="Spart - Fuel your creativity, with collaboration"/>
+      <meta name="twitter:description" content="Spart is a platform where visual artists, music makers, writers, and voice actors can freely collaborate."/>
+      <meta name="twitter:image" content="images/website.png"/>
+      <meta name="twitter:card" content="summary_large_image"/>
+
+      <meta property="og:site_name" content="Spart"/>
+      <meta name="twitter:image:alt" content="Spart Website Image"/>
     </Helmet>
   )
 }
@@ -35,6 +48,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  keywords: ''
 }
 
 SEO.propTypes = {
@@ -42,6 +56,8 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  canonical: PropTypes.string,
+  keywords: PropTypes.string
 }
 
 export default SEO

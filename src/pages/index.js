@@ -15,7 +15,12 @@ import Inspire from "../components/images/inspire"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="Spart"
+      canonical=""
+      description="A place where artists can collaborate on combinations of visual, audio, and written artwork."
+      keywords="contact, e-mail, updates, social, medias, instagram, twitter, discord"
+    />
 
     <IntroBlock
       introTitle="Fuel your creativity, with collaboration"
@@ -65,7 +70,8 @@ const IndexPage = () => (
       <p className="illustration-declaration"
         style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px' }}>
         Illustrations are free and available here:&nbsp;
-        <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://absurd.design/" target="_blank" rel="noopener noreferrer">Absurd Design</a>
+        <a style={{ color: '#6A6A6A', fontSize: '15px' }} title="absurd-design"
+          href="https://absurd.design/" target="_blank" rel="noopener noreferrer">Absurd Design</a>
       </p>
     </div>
 
