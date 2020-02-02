@@ -8,7 +8,7 @@ const IntroBlock = ({ introTitle, introDescription }) => (
       }}>
       { introTitle }
     </h1>
-    <h2 className="main-intro-description">
+    <h2 className="main-intro-description" style={{ fontWeight: '400' }}>
       { introDescription }
     </h2>
   </div>
