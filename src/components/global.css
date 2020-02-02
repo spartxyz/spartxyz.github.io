@@ -3,7 +3,8 @@
 input {
   font-family: 'Inter';
 }
-* {
+*,
+h1 {
   font-family: 'Inter';
 }
 

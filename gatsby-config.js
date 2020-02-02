@@ -1,6 +1,23 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Spart - Collaboration Platform',
+    siteUrl: `https://spart.site/`,
+    description: 'A place where artists can collaborate on combinations of visual, audio, and written artwork.',
+    keywords: 'artists, spart, visual artist, music maker, writer, voice actor, collaboration, composer, producer, poems',
+    author: 'Joe Czepil',
+    viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://spart.site/',
+        sitemap: 'https://spart.site/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

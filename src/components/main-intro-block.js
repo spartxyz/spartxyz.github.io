@@ -3,11 +3,11 @@ import React from "react"
 
 const IntroBlock = ({ introTitle, introDescription }) => (
   <div className="main-intro-block">
-    <p className="main-intro-title" style={{
-        fontWeight: '600'
+    <h1 className="main-intro-title" style={{
+        fontWeight: '500'
       }}>
       { introTitle }
-    </p>
+    </h1>
     <p className="main-intro-description">
       { introDescription }
     </p>

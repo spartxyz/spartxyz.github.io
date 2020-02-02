@@ -18,9 +18,9 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <IntroBlock
-      introTitle="Find your inner creativity"
-      introDescription="Experiment with various mediums of art while still being able to
-      showcase your strengths, all in one place, and with the support of other artists"
+      introTitle="Fuel your creativity, with collaboration"
+      introDescription="Collaborate with visual artists, music makers, writers, and voice actors,
+      all in one place, and with the support of other artists"
     />
 
   <div style={{ margin: 'auto', boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)', marginBottom: '-10px' }}>
