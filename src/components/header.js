@@ -22,6 +22,7 @@ const Header = () => (
       <h1 className="logo-block">
         <Link
           to="/"
+          title="home"
           style={{
             color: `black`,
             display: 'block',
@@ -34,16 +35,16 @@ const Header = () => (
       </h1>
       <div style={{ flexGrow: 1 }}/>
       <div className="header-right">
-        <Link className="header-right-item" to="/">Home</Link>
-        <Link className="header-right-item" to="/pricing/">Pricing</Link>
-        <Link className="header-right-item" to="/tutorials/">Tutorials</Link>
-        <Link className="header-right-item" to="/contact/">Contact</Link>
+        <Link className="header-right-item" title="home" to="/">Home</Link>
+        <Link className="header-right-item" title="pricing" to="/pricing/">Pricing</Link>
+        <Link className="header-right-item" title="tutorials" to="/tutorials/">Tutorials</Link>
+        <Link className="header-right-item" title="contact" to="/contact/">Contact</Link>
         <a className="header-right-item" href="https://www.spart.xyz/"
           target="_blank" rel="noopener noreferrer">
           App
         </a>
       </div>
-      <Link className="header-right-burger" to="/menu/">
+      <Link className="header-right-burger" to="/menu/" title="navigation">
         <Menu/>
       </Link>
     </div>

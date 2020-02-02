@@ -15,7 +15,7 @@ const Interpretation = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="interpretation" />
 }
 
 export default Interpretation

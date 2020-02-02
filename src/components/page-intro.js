@@ -9,9 +9,9 @@ const PageIntro = ({ introTitle, introDescription }) => (
     <h1 className="intro-title" style={{ fontWeight: '500' }}>
       { introTitle }
     </h1>
-    <p className="intro-description">
+    <h2 className="intro-description">
       { introDescription }
-    </p>
+    </h2>
   </div>
 )
 

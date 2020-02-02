@@ -8,9 +8,9 @@ const IntroBlock = ({ introTitle, introDescription }) => (
       }}>
       { introTitle }
     </h1>
-    <p className="main-intro-description">
+    <h2 className="main-intro-description">
       { introDescription }
-    </p>
+    </h2>
   </div>
 )
 

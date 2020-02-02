@@ -15,7 +15,7 @@ const Interaction = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="interaction" />
 }
 
 export default Interaction

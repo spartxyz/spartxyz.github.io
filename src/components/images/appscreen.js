@@ -15,7 +15,7 @@ const AppScreen = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="spart-app" />
 }
 
 export default AppScreen
