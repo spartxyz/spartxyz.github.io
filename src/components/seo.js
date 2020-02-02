@@ -15,6 +15,7 @@ function SEO({ description, lang, meta, title, keywords }) {
       htmlAttributes={{
         lang,
       }}
+      title={title}
       titleTemplate={`%s | Artist Collaboration Platform`}
       meta={[].concat(meta)}
     >
