@@ -23,11 +23,10 @@ const Contact = () => (
 
     <PageIntro
       introTitle="Contact"
-      introDescription="There are a few ways you can keep in touch with us.
-      You can follow any of our social medias listed below, sign up for e-mail updates, or send us an e-mail."
+      introDescription="Follow any of our social media accounts listed below, sign up for e-mail updates, or send us an e-mail."
     />
 
-    <div style={{ margin: '20px auto 20px auto' }} className="contact-form">
+    <div style={{ margin: '0px auto 20px auto' }} className="contact-form">
       <div style={{ textAlign: 'center', fontSize: '20px', marginBottom: '12px' }}>Sign Up For E-mail Updates</div>
       <MailchimpSubscribe
           url={url}
@@ -42,7 +41,7 @@ const Contact = () => (
         />
     </div>
 
-    <div className="social-medias" style={{ display: 'block', textAlign: 'center' }}>
+    <div className="social-medias" style={{ display: 'block', textAlign: 'center', marginTop: '100px' }}>
       <a href="https://invite.gg/spart" target="_blank" rel="noopener noreferrer" className="social-media"><Discord/></a>
       <a href="https://www.instagram.com/spart_xyz/" target="_blank" rel="noopener noreferrer" className="social-media"><Instagram/></a>
       <a href="https://twitter.com/Spart_xyz" target="_blank" rel="noopener noreferrer" className="social-media"><Twitter/></a>
@@ -54,7 +53,7 @@ const Contact = () => (
       </a>
     </div>
 
-    <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px', marginTop: '60px' }}>
+    <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px', marginTop: '10px' }}>
       Spart is being developed by&nbsp;
       <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://twitter.com/ProgrammingJoe" target="_blank" rel="noopener noreferrer">ProgrammingJoe</a>
       &nbsp;and designed by&nbsp;

@@ -19,7 +19,7 @@ const Header = () => (
         display: 'flex'
       }}
     >
-      <h1 className="logo-block">
+      <div className="logo-block">
         <Link
           to="/"
           title="home"
@@ -32,7 +32,7 @@ const Header = () => (
         >
           <SpartLogo/>
         </Link>
-      </h1>
+      </div>
       <div style={{ flexGrow: 1 }}/>
       <div className="header-right">
         <Link className="header-right-item" title="home" to="/">Home</Link>

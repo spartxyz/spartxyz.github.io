@@ -23,7 +23,7 @@ const Tutorials = () => (
     <div className="faq-block">
       <FAQ
         introTitle="Who is Spart for?"
-        introDescription="Anyone really. Any new, beginner, amateur, or professional visual artist, producer, or writer."
+        introDescription="Anyone really. Any new, beginner, amateur, or professional visual artist, music producer, writer, or voice actor."
       />
 
       <FAQ

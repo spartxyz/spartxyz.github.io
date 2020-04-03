@@ -18,14 +18,14 @@ const IndexPage = () => (
     <SEO
       title="Spart"
       canonical=""
-      description="A place where artists can collaborate on combinations of visual, audio, and written artwork."
+      description="A place that fosters inspiration through creative expression and collaboration."
       keywords="creativity, collaboration, visual, artists, music, makers, writers, voice, actors"
     />
 
     <IntroBlock
       introTitle="Fuel your creativity, with collaboration"
-      introDescription="Collaborate with visual artists, music makers, writers, and voice actors,
-      all in one place, and with the support of other artists"
+      introDescription="Foster inspiration through creative expression and collaboration with other visual artists
+        writers, music producers, and voice actors."
     />
 
   <div style={{ margin: 'auto', boxShadow: '0 48px 38px 0 rgba(0, 0, 0, 0.03)', marginBottom: '-10px' }}>
@@ -33,33 +33,33 @@ const IndexPage = () => (
     </div>
 
     <CallToAction
-      text="Start collaborating with other creators!"
+      text="It's totally FREE!"
     />
 
     <div className="features-block">
       <FeatureBlock
         featureTitle="Collaborate"
-        featureDescription="Collaborate with others or watch as people create visuals, music, stories, or voice lines for the artwork you create."
+        featureDescription="Pair your artwork with other visual artists, music producers, writers, and voice actors."
         imageRight={true}
         image={<Interaction/>}
       />
       <FeatureBlock
-        featureTitle="Experiment"
-        featureDescription="Experiment with other mediums of artwork as a refreshing step away from your comfort zone."
+        featureTitle="Inspire"
+        featureDescription="Inspire other artists with your work and watch as they collaborate with you."
         imageRight={false}
+        image={<Inspire/>}
+      />
+      <FeatureBlock
+        featureTitle="Experiment"
+        featureDescription="Try something new by posting outside of your comfort zone. We are all beginners at something."
+        imageRight={true}
         image={<Collab/>}
       />
       <FeatureBlock
         featureTitle="Community"
         featureDescription="Join a community that is inclusive, non discriminatory, and welcoming to creators of all skill levels."
-        imageRight={true}
-        image={<Interpretation/>}
-      />
-      <FeatureBlock
-        featureTitle="Inspire"
-        featureDescription="Inspire and be inspired by all mediums of artwork on a shared platform."
         imageRight={false}
-        image={<Inspire/>}
+        image={<Interpretation/>}
       />
       <FeatureBlock
         featureTitle="Profit"
