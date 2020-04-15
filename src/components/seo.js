@@ -40,6 +40,15 @@ function SEO({ description, lang, meta, title, canonical, keywords }) {
 
       <meta property="og:site_name" content="Spart"/>
       <meta name="twitter:image:alt" content="Spart Website Image"/>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51615716-4"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-51615716-4');
+      </script>
     </Helmet>
   )
 }
