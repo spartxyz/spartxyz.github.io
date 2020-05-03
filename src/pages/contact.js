@@ -53,11 +53,22 @@ const Contact = () => (
       </a>
     </div>
 
-    <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px', marginTop: '10px' }}>
+    <p style={{ color: '#6A6A6A', textAlign: 'center', fontSize: '15px', marginTop: '20px' }}>
       Spart is being developed by&nbsp;
-      <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://twitter.com/ProgrammingJoe" target="_blank" rel="noopener noreferrer">ProgrammingJoe</a>
-      &nbsp;and designed by&nbsp;
-      <a style={{ color: '#6A6A6A', fontSize: '15px' }} href="https://twitter.com/spenceramarsh" target="_blank" rel="noopener noreferrer">Spencer</a>
+      <a style={{ color: '#6A6A6A', fontSize: '15px' }}
+         href="https://twitter.com/ProgrammingJoe" target="_blank" rel="noopener noreferrer">
+         Joe
+      </a>
+      <br/>Designed by&nbsp;
+      <a style={{ color: '#6A6A6A', fontSize: '15px' }}
+         href="https://www.xander.xyz/" target="_blank" rel="noopener noreferrer">
+         Spencer
+      </a>
+      <br/>And marketed by Jero at&nbsp;
+      <a style={{ color: '#6A6A6A', fontSize: '15px' }}
+         href="https://hiddenlinkstudios.com/" target="_blank" rel="noopener noreferrer">
+         Hidden Link Studios
+      </a>
     </p>
 
   </Layout>
